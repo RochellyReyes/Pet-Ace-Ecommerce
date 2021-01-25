@@ -27,6 +27,7 @@
 .Footer .Logo img {
     justify-content: flex-end;
     margin-right: 10px;
+    margin-top: 10px;
     width: 35px;
     height: auto;
     border-radius: 50%;

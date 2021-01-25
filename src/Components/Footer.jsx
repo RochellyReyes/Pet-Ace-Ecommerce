@@ -30,7 +30,10 @@ const Footer = () => {
             
             <div className="Logo">
                 <img 
-                    src="/imgs/petace-logo.jpg" alt="logo"/>
+                    src="/imgs/petace-logo.jpg" 
+                    alt="logo"
+                    width="640"
+                    height="360"/>
             </div>
         </div>
     )
