@@ -1,0 +1,72 @@
+.HeaderPA {
+    text-align: center;
+    padding: 3rem;
+}
+
+.AboutUs {
+    background: #cccccc; 
+    margin: 0 5vw 5vw 5vw;
+    padding: 12vw;
+
+}
+
+.Animals-Served .Animal-Title {
+    margin: 5vh 0 5vh 0;
+    background-color: rgb(14, 90, 14);
+    color: rgb(224, 222, 222);
+    padding: 7vw;
+    text-align: center;
+}
+  
+
+.Animals {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding: 7vw;
+    margin: 3vw;
+}
+
+.Animals h3 {
+    margin: 0 0 13vw 0;
+    text-align: center;
+    align-self: center;
+}
+
+
+.Animals img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px darkgray;
+}
+
+
+
+@media (min-width:500px){
+    .HeaderPA{
+        display: none;
+    }
+    
+    .AboutUs{
+        text-align: center;
+        margin-top: 10vh;
+        padding: 10vw;
+    }
+    .Animals-Served .Animal-Title {
+        padding: 5vh;
+    }
+
+    .Animals {
+        display: flex;
+        flex-wrap: wrap;  
+        justify-content: space-evenly;
+        /* align-content: stretch; */
+        margin: 5vw;
+        padding: 0 15vw 0 15vw;
+
+      }
+    
+
+}

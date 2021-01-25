@@ -1,0 +1,42 @@
+.Nav {
+    background: rgb(14, 90, 14);
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.Nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+};
+
+.Nav li {
+    margin: 0;
+}
+
+.Nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Nav ul li .active {
+    background-color: #cccccc;
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width: 500px){
+    .Nav ul li a:hover:not(.active) {
+    background-color: rgb(82, 197, 107);
+    color: black;
+    font-weight: bold;
+    }   
+}
+  

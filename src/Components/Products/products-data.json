@@ -1,0 +1,98 @@
+[
+    {
+         "name":"KONG Classic Dog Toy",
+        "species": "Dog",
+        "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYAedc2_VWzAHpUYssABhQihWMK526YDXVlw&usqp=CAU",
+        "alt":"Kong chew toy",
+        "description": "Your dog will enjoy playing with this classic chew toy. Great dogs of all ages and sizes.",
+        "price": 12.99
+    },
+    {
+        "name":"Dog Bed-Medium/Small",
+        "species": "Dog",
+        "imgURL":"https://s7d2.scene7.com/is/image/PetSmart/5291324",
+        "alt": "medium to small dog bed",
+        "description": "Have your furry friend relax in a softer than clouds bed. For medium to small dogs.",
+        "price": 34.99
+    },        
+    {
+        "name":"Dog Bed-Large",
+        "species": "Dog",
+        "imgURL":"https://i5.walmartimages.com/asr/ab9a3e40-f21a-4aac-a7b3-0ed30f596dc6_1.49634cfb962be7760e82fad961e339f0.jpeg",
+        "alt": "large dog bed",
+        "description": "Cozy and relaxing dog bed. Mattress is removable for easy cleaning.",
+        "price": 146.33
+    },
+    {
+        "name":"Milk-Bone Treats",
+        "species": "Dog",
+        "imgURL":"https://i5.walmartimages.com/asr/a3ecfbf4-4148-47a0-9eae-de8d5e321073_1.9e37d0d54d6f59a4fd6bf2f4a37609e5.jpeg",
+        "alt": "milk bone dog treats",
+        "description": "Treat your furry friend with delicious Milk-Bone flavored variety pack for small dogs.",
+        "price": 11.64
+    },
+    {
+        "name":"Cat Tree",
+        "species": "Cat",
+        "imgURL":"https://images-na.ssl-images-amazon.com/images/I/91Asb0fMLUL._AC_SX450_.jpg",
+        "alt": "cat tree",
+        "description": "Your feline friends will enjoy playing in their new cat condo. Great for all sizes and age.",
+        "price": 89.99
+    },
+    {
+        "name":"Litter Box",
+        "species": "Cat",
+        "imgURL":"https://target.scene7.com/is/image/Target/GUEST_fd2b5881-ed2b-404e-8e10-5fd07dad0e59?wid=488&hei=488&fmt=pjpeg",
+        "alt": "Litter box cat",
+        "description": "Omega paw roll'n clean unique self-cleaning litter box in the colot green.",
+        "price": 67.99
+    },
+    {
+        "name":"Outdoor Sanctuary",
+        "species": "Cat",
+        "imgURL":"https://secure.img1-fg.wfcdn.com/im/87133958/compr-r85/8884/88844103/suri-wooden-outdoor-cat-house.jpg",
+        "alt": "outdoor cat sanctuary",
+        "description": "Built on a sturdy wood frame and enclodes with durable wire mesh.",
+        "price": 347.99
+    },
+    {
+        "name":"Robotic Toy",
+        "species": "Cat",
+        "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71QHLqIl7hL._AC_SL1500_.jpg",
+        "alt": "robotic cat toy",
+        "description": "Rechargeable interactive cat toy is perfect for any playful cat.",
+        "price": 34.90
+    },
+    {
+        "name":"Habba Hut",
+        "species": "Reptile",
+        "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71GsTIL2WVL._AC_SL1159_.jpg",
+        "alt": "hubba hut for reptiles",
+        "description": "Great for snakes, turtles, lizards, and more to find shade and relax under.",
+        "price": 17.62
+    },
+    {
+        "name":"Deep Dome Lamp Fixture",
+        "species": "Reptile",
+        "imgURL":"https://zoomed.com/wp-content/uploads/LF-17_Deep_Dome_Lamp_Fixture.jpg",
+        "alt": "deep done lamp fixture for reptiles",
+        "description": "For UVB, 24 hour heat or daylight lamps. Use bulbs up to 100 watts.",
+        "price": 29.81
+    },
+    {
+        "name":"Jungle Habitat Pack",
+        "species": "Reptile",
+        "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71rT36sCYSL._AC_SY450_.jpg",
+        "alt": "jungle habitat pack for reptiles",
+        "description": "Consist of 2 hammock, 2 bendable artifical vines, and 1 bendable vine with leaves",
+        "price": 21.99
+    },
+    {
+        "name":"Mister",
+        "species": "Reptile",
+        "imgURL":"https://images-na.ssl-images-amazon.com/images/I/41pShgDU%2BcL._AC_.jpg",
+        "alt": "mister for reptiles",
+        "description": "Portable pressure sprayer that adds moister to any reptile environment.",
+        "price": 12.72
+    }
+]
