@@ -22,39 +22,47 @@ class Contact extends Component {
 
     submitHandler = (event) => {
         event.preventDefault();
-        alert(`You have submitted name:${this.state.inputName}, email:${this.state.inputEmail}, and comment${this.state.inputComment}`)
+        alert(`You have submitted this form. Thank you`)
     };
 
 
 
     render() {
         return(
-            <div>
+            <div className="Background">
                 <form onSubmit={this.submitHandler} className="Form">
-                    <h1>Get in touch</h1>
-                    <h2>Let us know of any questions, concerns, or comments you may have.</h2>
+                    <h1>Contact Us</h1>
+                    <h3>Let us know of any questions, concerns, or comments you may have.</h3>
 
-                    <p>Name:</p>
+                    <p>Name</p>
                     <input 
                         type="text"
                         name="name"
                         onChange={this.changeHandler}
+                        required
                     />
-                    <p>Email Address:</p>
+                    <p>Email Address</p>
                     <input 
                         type="text"
                         name="email"
                         onChange={this.changeHandler}
+                        required
                     />
 
-                    <p>Comments:</p>
-                    <textarea value={this.state.inputComment} placeholder="Add your questions, concerns or comments here."/>
+                    <p>Comments</p>
+                    <textarea 
+                        value={this.state.inputComment}   
+                        placeholder="Add your questions, concerns or comments here."
+                        required
+                    />
 
-                    <input type='submit'/>
+                    <input type='submit' className="SubmitButton"/>
 
                 </form>
+                
                 <Footer/>
             </div>
+
         )
     }
 

@@ -3,4 +3,57 @@
     display: flex;
     flex-direction: column;
     margin: 10vw;
+    padding: 5vw;
+    background: #ccc;
+    border-radius: 12px;
 }
+
+.Form p {
+    padding-top: 3vw;
+}
+
+.Form input {
+    margin: 0 5vw 3vw 5vw;
+}
+
+.Form textarea {
+    margin: 0 5vw 3vw 5vw;
+}
+
+.Form .SubmitButton {
+    margin: 5vw 20vw 0 20vw;
+    padding: 2vw;
+    border-radius: 35px;
+    border: 1px solid white;
+    background: rgb(14, 90, 14);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+@media (min-width: 800px){
+    .Form{
+        margin: 5vw 15vw 15vw 15vw;
+    }
+    .Form p {
+        padding-top: 2vw;
+        padding-bottom: 1vw;
+        font-weight: bold;
+    }
+
+    .Form input{
+        margin: 0 10vw 0 10vw;
+    }
+
+    .Form textarea {
+        margin: 0 10vw 0 10vw;
+        padding: .75vw;
+    }
+    .SubmitButton{
+        margin: 0 25vw 0 25vw;
+        
+    }
+
+
+}
+
