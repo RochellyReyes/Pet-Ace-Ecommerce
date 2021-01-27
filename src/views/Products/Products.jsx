@@ -60,21 +60,31 @@ class Products extends Component {
 
         return(
             <div className="Products">
-                <h1>Things They'll Enjoy!</h1>
+                <h1 className="ProductsHeader">Things They'll Enjoy!</h1>
 
                 <div className="SpeciesFilter">
-                    <p>Filter by Animal</p>
+                    <p className="SpeciesFHeader">Filter by Animal</p>
 
-                    <button onClick={()=>{this.defaultHandler();}}>All</button>
+                    <button 
+                        className="SpeciesFBtn"
+                        onClick={()=>{this.defaultHandler();}}>All</button>
 
-                    <button onClick={()=> { this.handleSpecies('Dog'); }}>Canine</button>
-                    <button onClick={()=> { this.handleSpecies('Cat'); }}>Feline</button>
-                    <button onClick={() => {this.handleSpecies('Reptile');}}>Reptiles</button>
+                    <button 
+                        className="SpeciesFBtn"
+                        onClick={()=> { this.handleSpecies('Dog'); }}>Canine</button>
+
+                    <button 
+                        className="SpeciesFBtn"
+                        onClick={()=> { this.handleSpecies('Cat'); }}>Feline</button>
+
+                    <button 
+                        className="SpeciesFBtn"
+                        onClick={() => {this.handleSpecies('Reptile');}}>Reptiles</button>
                 </div>
 
-                <div>
+                {/* <div>
                     <p>Price Filter</p>
-                </div>
+                </div> */}
 
                 
                 {DisplayProducts}

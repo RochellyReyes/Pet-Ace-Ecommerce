@@ -3,19 +3,22 @@ import Footer from "../../Components/Footer";
 import Slider from "../../Components/Slider";
 import '../../styling/home.css';
 import '../../styling/slider.css';
+import 'react-slideshow-image/dist/styles.css'
 
 const Home = () => {
 
     return(
         <div>
             <Slider/>
-            <img 
-                className="MobileHeader" 
-                src="/imgs/slider/slider1.jpg" 
-                alt="cat and dog cuddling"
-                width="640"
-                height="360"
-            />
+            <div className="HeroImg">
+                <img 
+                    className="MobileHeader" 
+                    src="/imgs/slider/slider1.jpg" 
+                    alt="cat and dog cuddling"
+                    width="640"
+                    height="360"
+                />
+            </div>
             <h1 className="HeaderPA">Pet Ace</h1>
 
 

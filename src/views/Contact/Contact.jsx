@@ -67,10 +67,8 @@ class Contact extends Component {
                 
                 <Footer/>
             </div>
-
         )
     }
-
 };
 
 export default Contact;

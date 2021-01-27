@@ -1,3 +1,6 @@
+.HeroImg{
+    width: auto;
+}
 .MobileHeader {
     width: 100%;
     height: auto;
@@ -86,6 +89,7 @@
     .HeaderPA{
         display: none;
     }
+
     .MobileHeader{
         display: none;
     }

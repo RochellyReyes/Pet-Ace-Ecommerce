@@ -16,12 +16,50 @@
 }
 
 
-.Products p {
+.Ptext {
     padding: 3vw;
 }
 
-.Products button {
+.ViewProductBtn {
     border-radius: 35px;
+    background: rgb(14, 90, 14);
+    color: white;
     border: 1px solid darkgreen;
     padding: 3vw;
+    font-weight: bold;
+}
+
+@media (min-width: 500px){
+    .Product {
+        width: 350px;
+        height: auto;
+        margin: 5vw;
+        padding: 2vw;
+        display: inline-block;
+        background: none;
+        border: 1px solid lightgray;
+        box-shadow: 1px 3px darkgray;
+        border-radius: 5px;
+    }
+
+    .PName {
+        font-weight: bold;
+        font-size: 1.2em;
+        padding:3vw;
+    }
+
+    .PImg{
+        border-radius: 10px;
+    }
+
+    .Ptext {
+        padding: 1vw;
+    }
+
+    .ViewProductBtn{
+        border-radius: 10px;
+        padding: 1vw;
+        margin-top: 1.5vw;
+
+    }
 }
