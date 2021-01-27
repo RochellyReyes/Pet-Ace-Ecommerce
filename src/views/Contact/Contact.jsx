@@ -34,7 +34,7 @@ class Contact extends Component {
                     <h1>Contact Us</h1>
                     <h2>Let us know of any questions, concerns, or comments you may have.</h2>
 
-                    <label for="name">Name</label>
+                    <label htmlFor="name">Name</label>
                     <input 
                         id="name"
                         type="text"
@@ -42,7 +42,7 @@ class Contact extends Component {
                         onChange={this.changeHandler}
                         required
                     />
-                    <label for="email">Email Address</label>
+                    <label htmlFor="email">Email Address</label>
                     <input 
                         id="email"
                         type="text"
@@ -51,7 +51,7 @@ class Contact extends Component {
                         required
                     />
 
-                    <label for="content">Comments</label>
+                    <label htmlFor="content">Comments</label>
                     <textarea 
                         id="content"
                         value={this.state.inputComment}   

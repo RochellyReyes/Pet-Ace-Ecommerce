@@ -2,11 +2,11 @@ import React, {Component} from "react";
 import Product from "../../Components/Products/Product";
 import productsData from "../../Components/Products/products-data.json";
 import "../../styling/products.css";
-
+import "../../styling/product.css";
+ 
 import Footer from "../../Components/Footer";
 // filter for price and product type
 //add a search bar for input? here or App.js? 
-
 
 class Products extends Component {
     constructor(props){
@@ -18,7 +18,7 @@ class Products extends Component {
         }
     }
 
-    defaultHandler = (filter) => {
+    defaultHandler = () => {
         this.setState({
             filterProducts: this.state.products,
         });
@@ -44,7 +44,7 @@ class Products extends Component {
     //}
 
     render() {
-        const DisplayProducts =this.state.filterProducts.map((product, i) => {
+        const DisplayProducts = this.state.filterProducts.map((product, i) => {
             return(
                 <Product
                     key={i}
@@ -56,7 +56,7 @@ class Products extends Component {
                     link={product.link}
                 />
             );
-        })        
+        });
 
         return(
             <div className="Products">
@@ -65,7 +65,7 @@ class Products extends Component {
                 <div className="SpeciesFilter">
                     <p>Filter by Animal</p>
 
-                    <button onClick={()=>{this.defaultHandler('All');}}>All</button>
+                    <button onClick={()=>{this.defaultHandler();}}>All</button>
 
                     <button onClick={()=> { this.handleSpecies('Dog'); }}>Canine</button>
                     <button onClick={()=> { this.handleSpecies('Cat'); }}>Feline</button>

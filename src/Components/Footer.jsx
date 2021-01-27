@@ -1,6 +1,4 @@
 import React from 'react';
-import '../styling/footer.css';
-
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

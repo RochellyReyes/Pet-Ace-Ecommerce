@@ -1,8 +1,6 @@
 import React from 'react';
 import {Link, useLocation} from 'react-router-dom';
 
-import "../styling/nav.css";
-
 const Nav = () => {
   let HomeP, ProductsP, ContactP;
   const currentLocation = useLocation();

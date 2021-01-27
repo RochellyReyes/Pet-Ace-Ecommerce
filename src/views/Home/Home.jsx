@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../Components/Footer";
 import Slider from "../../Components/Slider";
 import '../../styling/home.css';
+import '../../styling/slider.css';
 
 const Home = () => {
 
