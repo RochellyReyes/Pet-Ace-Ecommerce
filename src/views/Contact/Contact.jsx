@@ -32,26 +32,31 @@ class Contact extends Component {
             <div className="Background">
                 <form onSubmit={this.submitHandler} className="Form">
                     <h1>Contact Us</h1>
-                    <h3>Let us know of any questions, concerns, or comments you may have.</h3>
+                    <h2>Let us know of any questions, concerns, or comments you may have.</h2>
 
-                    <p>Name</p>
+                    <label for="name">Name</label>
                     <input 
+                        id="name"
                         type="text"
                         name="name"
                         onChange={this.changeHandler}
                         required
                     />
-                    <p>Email Address</p>
+                    <label for="email">Email Address</label>
                     <input 
+                        id="email"
                         type="text"
                         name="email"
                         onChange={this.changeHandler}
                         required
                     />
 
-                    <p>Comments</p>
+                    <label for="content">Comments</label>
                     <textarea 
+                        id="content"
                         value={this.state.inputComment}   
+                        type="text"
+                        name="content"
                         placeholder="Add your questions, concerns or comments here."
                         required
                     />

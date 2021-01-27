@@ -1,11 +1,12 @@
 [
     {
-         "name":"KONG Classic Dog Toy",
+        "name":"KONG Classic Dog Toy",
         "species": "Dog",
         "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYAedc2_VWzAHpUYssABhQihWMK526YDXVlw&usqp=CAU",
         "alt":"Kong chew toy",
         "description": "Your dog will enjoy playing with this classic chew toy. Great dogs of all ages and sizes.",
-        "price": 12.99
+        "price": 12.99,
+        "link":"https://www.chewy.com/kong-classic-dog-toy/dp/38485"
     },
     {
         "name":"Dog Bed-Medium/Small",
@@ -13,7 +14,8 @@
         "imgURL":"https://s7d2.scene7.com/is/image/PetSmart/5291324",
         "alt": "medium to small dog bed",
         "description": "Have your furry friend relax in a softer than clouds bed. For medium to small dogs.",
-        "price": 34.99
+        "price": 34.99,
+        "link":"https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/top-paw-orthopedic-super-support-cuddler-dog-bed-55473.html"
     },        
     {
         "name":"Dog Bed-Large",
@@ -21,7 +23,8 @@
         "imgURL":"https://i5.walmartimages.com/asr/ab9a3e40-f21a-4aac-a7b3-0ed30f596dc6_1.49634cfb962be7760e82fad961e339f0.jpeg",
         "alt": "large dog bed",
         "description": "Cozy and relaxing dog bed. Mattress is removable for easy cleaning.",
-        "price": 146.33
+        "price": 146.33,
+        "link":"https://www.walmart.com/ip/New-Age-Pet-Ecoflex-Raised-Dog-Bed-Large-22-30-L-x-34-40-W-x-13-40-H/54806990" 
     },
     {
         "name":"Milk-Bone Treats",
@@ -29,7 +32,8 @@
         "imgURL":"https://i5.walmartimages.com/asr/a3ecfbf4-4148-47a0-9eae-de8d5e321073_1.9e37d0d54d6f59a4fd6bf2f4a37609e5.jpeg",
         "alt": "milk bone dog treats",
         "description": "Treat your furry friend with delicious Milk-Bone flavored variety pack for small dogs.",
-        "price": 11.64
+        "price": 11.64,
+        "link":"https://www.walmart.com/ip/Milk-Bone-Flavor-Snacks-Meaty-Flavors-Dog-Treats-7-Pounds/17018181"
     },
     {
         "name":"Cat Tree",
@@ -37,7 +41,8 @@
         "imgURL":"https://images-na.ssl-images-amazon.com/images/I/91Asb0fMLUL._AC_SX450_.jpg",
         "alt": "cat tree",
         "description": "Your feline friends will enjoy playing in their new cat condo. Great for all sizes and age.",
-        "price": 89.99
+        "price": 89.99,
+        "link":"https://www.amazon.com/Go-Pet-Club-Tree-Beige/dp/B003WGGWQA"
     },
     {
         "name":"Litter Box",
@@ -45,7 +50,8 @@
         "imgURL":"https://target.scene7.com/is/image/Target/GUEST_fd2b5881-ed2b-404e-8e10-5fd07dad0e59?wid=488&hei=488&fmt=pjpeg",
         "alt": "Litter box cat",
         "description": "Omega paw roll'n clean unique self-cleaning litter box in the colot green.",
-        "price": 67.99
+        "price": 67.99,
+        "link":"https://www.target.com/p/omega-paw-roll-n-clean-unique-no-scoop-self-cleaning-home-cat-litter-box-green/-/A-79713522"
     },
     {
         "name":"Outdoor Sanctuary",
@@ -53,7 +59,8 @@
         "imgURL":"https://secure.img1-fg.wfcdn.com/im/87133958/compr-r85/8884/88844103/suri-wooden-outdoor-cat-house.jpg",
         "alt": "outdoor cat sanctuary",
         "description": "Built on a sturdy wood frame and enclodes with durable wire mesh.",
-        "price": 347.99
+        "price": 332.52,
+        "link":"https://www.overstock.com/Pet-Supplies/Cat-Cages-Playpens/29814/cat.html?featuredproduct=22503163&featuredoption=37493307&kid=9553000357392&ci_src=17588969&ci_sku=28126187-000-000&cnc=US&guid=b894349d-45c8-4754-ab51-151e733c7a2b&cid=202290&type=pla&targetid=pla-301044268786&track=pspla&gclid=EAIaIQobChMI2r6r99qb7AIVDIvICh28pQrXEAkYDSABEgIly_D_BwE"
     },
     {
         "name":"Robotic Toy",
@@ -61,7 +68,8 @@
         "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71QHLqIl7hL._AC_SL1500_.jpg",
         "alt": "robotic cat toy",
         "description": "Rechargeable interactive cat toy is perfect for any playful cat.",
-        "price": 34.90
+        "price": 34.99,
+        "link":"https://www.amazon.com/Interactive-Automatic-Irregular-Charging-Light%EF%BC%8CLarge/dp/B07YY2NXDM"
     },
     {
         "name":"Habba Hut",
@@ -69,7 +77,8 @@
         "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71GsTIL2WVL._AC_SL1159_.jpg",
         "alt": "hubba hut for reptiles",
         "description": "Great for snakes, turtles, lizards, and more to find shade and relax under.",
-        "price": 17.62
+        "price": 16.99,
+        "link":"https://www.chewy.com/zoo-med-habba-hut/dp/154832"
     },
     {
         "name":"Deep Dome Lamp Fixture",
@@ -77,7 +86,8 @@
         "imgURL":"https://zoomed.com/wp-content/uploads/LF-17_Deep_Dome_Lamp_Fixture.jpg",
         "alt": "deep done lamp fixture for reptiles",
         "description": "For UVB, 24 hour heat or daylight lamps. Use bulbs up to 100 watts.",
-        "price": 29.81
+        "price": 24.27,
+        "link":"https://www.chewy.com/zoo-med-repti-deep-dome-lamp/dp/190107"
     },
     {
         "name":"Jungle Habitat Pack",
@@ -85,7 +95,8 @@
         "imgURL":"https://images-na.ssl-images-amazon.com/images/I/71rT36sCYSL._AC_SY450_.jpg",
         "alt": "jungle habitat pack for reptiles",
         "description": "Consist of 2 hammock, 2 bendable artifical vines, and 1 bendable vine with leaves",
-        "price": 21.99
+        "price": 16.89,
+        "link":"https://www.amazon.com/PIVBY-Bearded-Flexible-Climbing-Chameleon/dp/B07HFT3C78/ref=sr_1_12?dchild=1&keywords=reptile+supplies&qid=1601842395&s=pet-supplies&sr=1-12"
     },
     {
         "name":"Mister",
@@ -93,6 +104,7 @@
         "imgURL":"https://images-na.ssl-images-amazon.com/images/I/41pShgDU%2BcL._AC_.jpg",
         "alt": "mister for reptiles",
         "description": "Portable pressure sprayer that adds moister to any reptile environment.",
-        "price": 12.72
+        "price": 12.72,
+        "link":"https://www.amazon.com/Exo-Terra-Spray-Bottle-quarts/dp/B004CJS7XW/ref=asc_df_B004CJS7XW/?tag=hyprod-20&linkCode=df0&hvadid=167149786275&hvpos=&hvnetw=g&hvrand=12763249715208259804&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9009984&hvtargid=pla-316086437497&psc=1"
     }
 ]

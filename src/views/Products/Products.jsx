@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import Product from "../../Components/Products/Product";
 import productsData from "../../Components/Products/products-data.json";
+import "../../styling/products.css";
 
 import Footer from "../../Components/Footer";
-
 // filter for price and product type
 //add a search bar for input? here or App.js? 
 
@@ -13,19 +13,38 @@ class Products extends Component {
         super(props);
 
         this.state = {
-            products: productsData
+            products: productsData,
+            filterProducts: productsData,
         }
     }
 
-    //filter handler begins---------------------------------
-    filterHandler = (event) => {
+    defaultHandler = (filter) => {
+        this.setState({
+            filterProducts: this.state.products,
+        });
+   }
+    
+    handleSpecies = (filter) => {
+        const filterAn = this.state.products.filter((filterValue) => {
+            if(filterValue.species === filter ){
+                return true;
+            } 
+            
+            return false;
+        });
 
-    }
+        this.setState({
+            filterProducts: filterAn,
+        });
+   }
 
-    //------------------------------------------------------
+    //handleFilterPrice = () => {
+        // update state to only include matched price
+        //sort() https://www.javascripttutorial.net/javascript-array-filter/
+    //}
 
     render() {
-        const DisplayProducts = this.state.products.map((product, i) => {
+        const DisplayProducts =this.state.filterProducts.map((product, i) => {
             return(
                 <Product
                     key={i}
@@ -34,14 +53,33 @@ class Products extends Component {
                     alt={product.alt}
                     description={product.description}
                     price={product.price}
+                    link={product.link}
                 />
             );
-        })
+        })        
 
         return(
-            <div>
-                <h1>Products Page</h1>
+            <div className="Products">
+                <h1>Things They'll Enjoy!</h1>
+
+                <div className="SpeciesFilter">
+                    <p>Filter by Animal</p>
+
+                    <button onClick={()=>{this.defaultHandler('All');}}>All</button>
+
+                    <button onClick={()=> { this.handleSpecies('Dog'); }}>Canine</button>
+                    <button onClick={()=> { this.handleSpecies('Cat'); }}>Feline</button>
+                    <button onClick={() => {this.handleSpecies('Reptile');}}>Reptiles</button>
+                </div>
+
+                <div>
+                    <p>Price Filter</p>
+                </div>
+
+                
                 {DisplayProducts}
+                
+                
                 <Footer/>
                 
             </div>

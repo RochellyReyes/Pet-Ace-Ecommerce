@@ -1,0 +1,27 @@
+.Product {
+    margin: 10vw 5vw 5vw 5vw;
+    padding: 3vw;
+    background: #ccc;
+    border-radius: 12px;
+    
+}
+
+.PName {
+    font-weight: bold;
+    padding:3vw;
+}
+
+.PImg{
+    border-radius: 10px;
+}
+
+
+.Products p {
+    padding: 3vw;
+}
+
+.Products button {
+    border-radius: 35px;
+    border: 1px solid darkgreen;
+    padding: 3vw;
+}
