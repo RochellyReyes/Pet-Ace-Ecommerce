@@ -7,7 +7,6 @@
 }
 
 .SpeciesFilter {
-    /* background-color: gray; */
     margin: 5vw;
 }
 
@@ -17,7 +16,7 @@
 
 .SpeciesFBtn {
     margin: 2vw;
-    padding: 1.5vw;
+    padding: 1.8vw;
     width: 15vw;
     border-radius: 35px;
     border: none;

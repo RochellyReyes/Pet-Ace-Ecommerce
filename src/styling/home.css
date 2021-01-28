@@ -44,7 +44,7 @@
 }
 
 
-.Animals img {
+.Animals .AnImg {
     width: 100%;
     height: auto;
     border-radius: 50%;
@@ -53,7 +53,9 @@
 
 
 
-@media (max-width:1200px) and (min-width:500px){
+/* @media (max-width:1200px) and (min-width:500px){ */
+@media (max-width:1000px) and (min-width:500px){
+
     .HeaderPA{
         display: none;
     }
@@ -85,7 +87,9 @@
 
 }
 
-@media (min-width:1200px) {
+/* @media (min-width:1200px) { */
+@media (min-width:1000px) {
+
     .HeaderPA{
         display: none;
     }
@@ -106,5 +110,16 @@
 
     .Animals {
         font-size: 1.5em;
+            padding-top: 5vw;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        
+    }
+
+    .Animals .AnImg {
+        width: 22vw;
+        margin-left:2vw;
+        margin-right: 2vw;
+
     }
 }

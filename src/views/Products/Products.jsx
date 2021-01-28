@@ -79,7 +79,7 @@ class Products extends Component {
 
                     <button 
                         className="SpeciesFBtn"
-                        onClick={() => {this.handleSpecies('Reptile');}}>Reptiles</button>
+                        onClick={() => {this.handleSpecies('Reptile');}}>Reptile</button>
                 </div>
 
                 {/* <div>

@@ -1,8 +1,9 @@
 .Product {
     margin: 10vw 5vw 5vw 5vw;
     padding: 3vw;
-    background: #ccc;
-    border-radius: 12px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 3px darkgray;
+    border-radius: 5px;
     
 }
 
@@ -36,10 +37,6 @@
         margin: 5vw;
         padding: 2vw;
         display: inline-block;
-        background: none;
-        border: 1px solid lightgray;
-        box-shadow: 1px 3px darkgray;
-        border-radius: 5px;
     }
 
     .PName {
@@ -61,5 +58,12 @@
         padding: 1vw;
         margin-top: 1.5vw;
 
+    }
+
+    .ViewProductBtn:hover:not(.active) {
+        background-color: rgb(85, 182, 106);
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
     }
 }

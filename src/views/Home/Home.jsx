@@ -32,21 +32,27 @@ const Home = () => {
 
                 <section className="Animals">
                     <div>
-                        <img src="/imgs/homeImgs/dog.jpg" 
+                        <img 
+                            className="AnImg"
+                            src="/imgs/homeImgs/dog.jpg" 
                             alt="husky dog in the snow" 
                             width="640" 
                             height="360"/>
                         <h3>Canines</h3>
                     </div>
                     <div>
-                        <img src="/imgs/homeImgs/cat.jpg" 
+                        <img 
+                            className="AnImg"
+                            src="/imgs/homeImgs/cat.jpg" 
                             alt="cat sunbathing" 
                             width="640" 
                             height="360"/>
                         <h3>Felines</h3>
                     </div>
                     <div>
-                        <img src="/imgs/homeImgs/turtle.jpg" 
+                        <img 
+                            className="AnImg"
+                            src="/imgs/homeImgs/turtle.jpg" 
                             alt="turtle sunbathing" 
                             width="640" 
                             height="360"/>

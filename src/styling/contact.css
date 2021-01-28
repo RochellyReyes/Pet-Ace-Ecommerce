@@ -1,11 +1,95 @@
 .Form{
     text-align: center;
+    margin: 10vw;
+    padding: 1vw;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.Form h2 {
+    padding-bottom: 3vh;
+}
+
+.fieldset {
+    border: none;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: left;
+    display: inline-block;
+}
+
+.Form label {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    font-weight: bold;
+}
+
+
+.Form .SubmitBtn {
+    margin-top: 3vw;
+    padding: 2vw;
+    border-radius: 35px;
+    border: 1px solid white;
+    background: rgb(14, 90, 14);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.error {
+    color: red;
+}
+
+
+@media (min-width: 800px){
+    .Form{
+        background: none;
+        margin: 20px;
+        text-align: left; 
+    }
+
+    .Form h1{
+        margin-left: 20px;
+    }
+
+    .Form h2 {
+        margin-left: 20px;
+    }
+
+    .Form .SubmitBtn {
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .Form .SubmitBtn:hover:not(.active) {
+        background-color: rgb(85, 182, 106);
+        color: black;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* .Form{
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin: 10vw;
     padding: 5vw;
     background: #ccc;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .Form label {
@@ -52,7 +136,5 @@
     .SubmitButton{
         margin: 0 25vw 0 25vw;
     }
-
-
 }
-
+ */
