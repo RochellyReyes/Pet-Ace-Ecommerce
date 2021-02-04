@@ -24,7 +24,7 @@ const Home = () => {
 
             <div className="AboutUs">
                 <h2>About Us</h2>
-                <p>At Pet Ace, we connect passionate people, trusted brands and committed retailers to bring pets the very best. We provide the knowledge and support to help our pet companions grow. Together, we help pets live happier, healthier lives. Because when pets thrive, the people who love and care for them do too.</p>
+                <p>At Pet Ace, we connect passionate people, trusted brands, and committed retailers to bring pets the very best. We provide the knowledge and support to help our pet companions grow. Together, we help pets live happier and healthier lives. Because when pets thrive, the people who love and care for them do too.</p>
             </div>
 
             <section className="Animals-Served">
