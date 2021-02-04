@@ -6,11 +6,11 @@
     padding-top: 5vw;
 }
 
-.SpeciesFilter {
-    margin: 5vw;
+.Filter {
+    margin: 3vw;
 }
 
-.SpeciesFHeader{
+.FilterHeader{
     padding-top: 1.5vw;
 }
 
@@ -21,6 +21,17 @@
     border-radius: 35px;
     border: none;
     background: lightgray;
+}
+
+.PriceFBtn {
+    /* margin: 2vw; */
+    margin: 2vw;
+    padding: 0;
+    border-radius: 35px;
+    border: none;
+    background: lightgray;
+    width: 15vw;
+    height: 15vw;
 }
 
 @media (min-width: 500px){
@@ -34,4 +45,19 @@
         color: black;
         font-weight: bold;
     }
+
+    .PriceFBtn{
+        border-radius: 5px;
+        cursor: pointer;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .PriceFBtn:hover:not(.active) {
+        background-color: rgb(85, 182, 106);
+        color: black;
+        font-weight: bold;
+    }
+
+
 }

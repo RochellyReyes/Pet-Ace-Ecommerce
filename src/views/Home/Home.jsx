@@ -3,7 +3,7 @@ import Footer from "../../Components/Footer";
 import Slider from "../../Components/Slider";
 import '../../styling/home.css';
 import '../../styling/slider.css';
-import 'react-slideshow-image/dist/styles.css'
+import 'react-slideshow-image/dist/styles.css';
 
 const Home = () => {
 

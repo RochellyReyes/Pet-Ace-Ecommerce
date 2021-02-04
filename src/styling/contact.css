@@ -1,9 +1,10 @@
 .Form{
-    text-align: center;
     margin: 10vw;
     padding: 1vw;
-    background: lightgray;
     border-radius: 5px;
+    height: 100vh;
+    margin: 20px;
+    text-align: left; 
 }
 
 .Form h2 {
@@ -42,11 +43,11 @@
 
 
 @media (min-width: 800px){
-    .Form{
+    /* .Form{
         background: none;
         margin: 20px;
         text-align: left; 
-    }
+    } */
 
     .Form h1{
         margin-left: 20px;
@@ -67,74 +68,4 @@
         font-weight: bold;
     }
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-/* .Form{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 10vw;
-    padding: 5vw;
-    background: #ccc;
-    border-radius: 5px;
-}
-
-.Form label {
-    padding-top: 3vw;
-}
-
-.Form input {
-    margin: 0 5vw 3vw 5vw;
-}
-
-.Form textarea {
-    margin: 0 5vw 3vw 5vw;
-}
-
-.Form .SubmitButton {
-    margin: 5vw 20vw 0 20vw;
-    padding: 2vw;
-    border-radius: 35px;
-    border: 1px solid white;
-    background: rgb(14, 90, 14);
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-@media (min-width: 800px){
-    .Form{
-        margin: 5vw 15vw 15vw 15vw;
-    }
-    .Form label {
-        padding-top: 2vw;
-        padding-bottom: 1vw;
-        font-weight: bold;
-    }
-
-    .Form input{
-        margin: 0 10vw 0 10vw;
-    }
-
-    .Form textarea {
-        margin: 0 10vw 0 10vw;
-        padding: .75vw;
-    }
-    .SubmitButton{
-        margin: 0 25vw 0 25vw;
-    }
-}
- */

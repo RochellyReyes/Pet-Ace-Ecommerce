@@ -38,10 +38,17 @@ class Products extends Component {
         });
    }
 
-    //handleFilterPrice = () => {
-        // update state to only include matched price
-        //sort() https://www.javascripttutorial.net/javascript-array-filter/
-    //}
+    handlePriceFilter = (min, max) => {
+        const filterPrice = this.state.products.filter((filterValue) => {
+            if (filterValue.price >= min && filterValue.price <= max){
+                return true
+            } return false
+        });
+
+        this.setState({
+            filterProducts: filterPrice,
+        });
+    };
 
     render() {
         const DisplayProducts = this.state.filterProducts.map((product, i) => {
@@ -62,8 +69,8 @@ class Products extends Component {
             <div className="Products">
                 <h1 className="ProductsHeader">Things They'll Enjoy!</h1>
 
-                <div className="SpeciesFilter">
-                    <p className="SpeciesFHeader">Filter by Animal</p>
+                <div className="Filter">
+                    <p className="FilterHeader">Filter by Animal</p>
 
                     <button 
                         className="SpeciesFBtn"
@@ -82,9 +89,30 @@ class Products extends Component {
                         onClick={() => {this.handleSpecies('Reptile');}}>Reptile</button>
                 </div>
 
-                {/* <div>
-                    <p>Price Filter</p>
-                </div> */}
+                
+                <div className="Filter">
+                    <p className="FilterHeader">Filter by Price</p>
+                    <button 
+                        className="PriceFBtn"
+                        onClick={()=> {this.handlePriceFilter(0, 25.00); }}>Under $25</button>
+
+                    <button
+                        className="PriceFBtn"
+                        onClick={()=> {this.handlePriceFilter(25.01, 50.00); }}>25-50</button>
+
+                    <button 
+                        className="PriceFBtn"
+                        onClick={() => {this.handlePriceFilter(50.01, 100.00);}}>50-100</button>
+
+                    <button 
+                        className="PriceFBtn"
+                        onClick={() => {this.handlePriceFilter(100.01, 500.00);}}>100& Above</button>
+
+                    <button
+                        className="PriceFBtn"        
+                        onClick={()=>{this.defaultHandler();}}>Reset</button>
+
+                </div>
 
                 
                 {DisplayProducts}
